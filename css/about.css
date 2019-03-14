@@ -1,0 +1,64 @@
+.bio {
+    padding-top: 6%;
+    margin-left: 5%;
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+img {
+    display: flex;
+    float: right;
+    padding-top: 5%;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+.about-sec {
+    display: inline-block;
+}
+
+.button {
+    margin-left: 15em;
+
+
+}
+
+a {
+    font-family: "Ramabhadra", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .about-sec {
+        max-width: 100%;
+        margin: 2em;
+        padding-top: 0%;
+    }
+
+
+    .bio {
+        max-width: 100%;
+        margin: 1em;
+        padding-top: 0;
+
+    }
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0;
+
+    }
+
+    .button {
+
+        margin: 4em;
+        justify-content: center;
+    }
+
+
+}

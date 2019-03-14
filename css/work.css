@@ -1,0 +1,60 @@
+img {
+    display: flex;
+    float: right;
+    max-width: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+.kintec{
+    margin-top: 3em;
+}
+
+.projectholder {
+    display: inline-block;
+    margin-left: 26%;
+    margin-top: 7%;
+  
+}
+
+.button {
+    margin-top: 3em;
+    margin-left: 6em;
+}
+
+a {
+    font-family: "Ramabhadra", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .projectholder {
+        max-width: 100%;
+        margin: 2em;
+        padding-top: 10%;
+    }
+
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0;
+        margin-bottom: 3em;
+
+    }
+
+    .button {
+        margin-left: 8em ;
+
+    }
+
+    .kintec{
+        margin: 0;
+    }
+}

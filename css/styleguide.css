@@ -1,0 +1,26 @@
+hr{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.color1{
+    background: #15db8c;
+    color: white;
+    text-align: center;
+    max-width: 7em;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.color2{
+    background: #333333;
+    color: white;
+    text-align: center;
+    max-width: 7em;
+    padding: 2%;
+}
+
+.titlefont{
+     font-family: 'Allura', cursive, Helvetica, sans-serif;
+    font-size: 2em;
+}
