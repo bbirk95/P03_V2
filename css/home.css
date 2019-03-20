@@ -16,17 +16,18 @@
     overflow: hidden;
     top: 0;
     left: 0;
+   
     filter: brightness(60%);
     
 }
 
 #video-bg-elem{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     min-height: 100%;
     min-width: 100%;
-    
+
 }
 
 .colour-overlay {
@@ -59,7 +60,7 @@ nav a:hover {
     color: white;
     font-size: 4em;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     margin-top: 10%;
 }
@@ -69,7 +70,7 @@ nav a:hover {
     color: white;
     font-size: 3em;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
 
 }
