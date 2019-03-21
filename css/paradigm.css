@@ -18,3 +18,9 @@ h1 {
         width: 80%
     }
 }
+
+@media only screen and (max-width: 510px) {
+    h1{
+        padding-top: 25%;
+    }
+}

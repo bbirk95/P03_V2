@@ -1,12 +1,12 @@
 .bio {
-    padding-top: 6%;
+    padding-top: 12%;
     margin-left: 5%;
     max-width: 40%;
     margin-right: 5%;
 }
 
 img {
-    padding-top: 5%;
+    padding-top: 10%;
     margin-right: 15%;
     margin-left: 5%;
     margin-bottom: 5%;
@@ -14,10 +14,16 @@ img {
 
 
 .about-sec {
-    padding-top: 5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.continfo{
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .button {
@@ -32,11 +38,16 @@ a {
 }
 
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1400px) {
     
     .about-sec{
         flex-direction: column-reverse;
         
+    }
+    
+    .continfo{
+        text-align: left;
+        margin-top: 0;
     }
 }
 
@@ -46,9 +57,7 @@ a {
     .about-sec {
         max-width: 100%;
         margin: 2em;
-        padding-top: 0%;
-        
-        
+        padding-top: 0%;   
     }
 
 
@@ -56,8 +65,8 @@ a {
         max-width: 100%;
         margin: 0;
         padding-top: 0;
-
     }
+    
 
     img {
         max-width: 100%;
