@@ -13,6 +13,17 @@ form {
 .contact-title{
     text-align: center;
 }
+
+.cont-img{
+    max-width: 100%;
+    filter: brightness(0.5);
+    padding: 2%;
+}
+
+textarea{
+    height: 13em;
+}
+
 .form-control {
     width: 600px;
     background: transparent;
