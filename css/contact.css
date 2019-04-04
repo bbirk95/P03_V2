@@ -48,3 +48,20 @@ form .submit:hover {
     transition: 0.3s;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 610px) {
+    body{
+        margin-top: 20%;
+    }
+    .form-control {
+        max-width: 70%;
+    } 
+    
+    h1{
+        padding: 5%;
+    }
+    
+    h2 {
+        padding: 5%;
+    }
+}

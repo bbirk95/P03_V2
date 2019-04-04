@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Contact</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
 
@@ -20,7 +20,7 @@
 
 <body>
 
-    <nav role="navigation">
+    <nav class="navigation">
         <div id="menuToggle">
             <input hidden type="checkbox" />
             <span></span>
@@ -28,25 +28,13 @@
             <span></span>
 
             <ul id="menu">
-                <div class="topnavborder">
-                    <div class="container">
-                        <header>
-
-                            <nav>
-                                <ul>
-                                    <li><a href="home.html">Home</a></li>
-                                    <li><a href="work.html">Work</a></li>
-                                    <li><a href="photography.html">Photography</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a class="active" href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-
-                        </header>
-
-                    </div>
-                </div>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
             </ul>
+
         </div>
     </nav>
 
@@ -54,17 +42,17 @@
         <h1>Need to reach me? No problem.</h1>
         <h2>Shoot me an email and I'll get back to you as soon as I can.</h2>
     </div>
-    
+
     <div class="contact-form">
-        <form id="contact-form" method="post" action="contact-form-handler.php">
+        <form class="contact-form" method="post" action="contact-form-handler.php">
             <input name="name" type="text" class="form-control" placeholder="Your Name" required>
             <br>
             <input name="email" type="text" class="form-control" placeholder="Your Email" required>
             <br>
-            <textarea name="message" type="text" class="form-control" placeholder="Message" row="4" required>
+            <textarea name="message" class="form-control" placeholder="Message" required>
             </textarea>
             <br>
-            <input type="submit" class="form-control submit" value="Send">
+            <button class="button" type="submit" name="submit">Send</button>
         </form>
     </div>
 
@@ -74,8 +62,8 @@
     <footer>
         <div class="footercontainer">
             <div class="footleft">
-                <a href=index.html>
-                    <h4><a href="styleguide.html">Style Guide</a></h4>
+                <a href=index.html></a>
+                <h4><a href="styleguide.html">Style Guide</a></h4>
 
             </div>
 
